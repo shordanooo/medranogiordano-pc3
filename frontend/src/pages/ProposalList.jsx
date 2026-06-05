@@ -15,7 +15,7 @@ export default function ProposalList() {
   }, []);
 
   if (loading) return <p style={styles.center}>Cargando propuestas...</p>;
-  if (error) return <p style={{ ...styles.center, color: "#c62828" }}>{error}</p>;
+  if (error) return <p style={{ ...styles.center, color: "#7a1a1a" }}>{error}</p>;
 
   return (
     <div style={styles.container}>
@@ -31,7 +31,7 @@ export default function ProposalList() {
 
 const styles = {
   container: { maxWidth: "800px", margin: "0 auto", padding: "32px 24px" },
-  heading: { color: "#1a3a6b", marginBottom: "24px" },
+  heading: { color: "#1a1a1a", marginBottom: "24px" },
   center: { textAlign: "center", marginTop: "60px", color: "#555" },
   empty: { textAlign: "center", color: "#777", marginTop: "40px" },
 };
