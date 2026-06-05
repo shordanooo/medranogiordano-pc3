@@ -77,14 +77,14 @@ export default function CreateProposal() {
 
 const styles = {
   container: { maxWidth: "700px", margin: "0 auto", padding: "32px 24px" },
-  heading: { color: "#1a3a6b", marginBottom: "8px" },
-  info: { color: "#555", marginBottom: "24px", background: "#f5f8ff",
-    padding: "12px 16px", borderRadius: "6px", border: "1px solid #d0dff5" },
+  heading: { color: "#1a1a1a", marginBottom: "8px" },
+  info: { color: "#555", marginBottom: "24px", background: "#f8f8f8",
+    padding: "12px 16px", borderRadius: "6px", border: "1px solid #e0e0e0" },
   form: { display: "flex", flexDirection: "column", gap: "12px" },
   label: { fontWeight: "600", color: "#333" },
-  input: { padding: "10px", border: "1px solid #d0dff5", borderRadius: "6px",
+  input: { padding: "10px", border: "1px solid #d0d0d0", borderRadius: "6px",
     fontSize: "0.95rem", width: "100%", boxSizing: "border-box" },
-  error: { color: "#c62828" },
-  btn: { background: "#1a3a6b", color: "#fff", border: "none", padding: "12px",
+  error: { color: "#7a1a1a" },
+  btn: { background: "#1a1a1a", color: "#fff", border: "none", padding: "12px",
     borderRadius: "6px", fontSize: "1rem", cursor: "pointer", fontWeight: "bold" },
 };

@@ -54,8 +54,8 @@ export default function ProposalDetail() {
           <button onClick={handleSign} disabled={signing} style={styles.signBtn}>
             {signing ? "Registrando..." : "Firmar esta propuesta"}
           </button>
-          {msg && <p style={{ color: "#2d7d32", marginTop: "8px" }}>{msg}</p>}
-          {error && <p style={{ color: "#c62828", marginTop: "8px" }}>{error}</p>}
+          {msg && <p style={{ color: "#2a5c27", marginTop: "8px" }}>{msg}</p>}
+          {error && <p style={{ color: "#7a1a1a", marginTop: "8px" }}>{error}</p>}
         </div>
       )}
 
@@ -85,17 +85,17 @@ export default function ProposalDetail() {
 
 const styles = {
   container: { maxWidth: "800px", margin: "0 auto", padding: "32px 24px" },
-  title: { color: "#1a3a6b", marginBottom: "8px" },
+  title: { color: "#1a1a1a", marginBottom: "8px" },
   summary: { color: "#555", marginBottom: "20px", fontSize: "1.05rem" },
   signBox: { marginBottom: "24px" },
-  signBtn: { background: "#1a3a6b", color: "#fff", border: "none", padding: "12px 28px",
+  signBtn: { background: "#1a1a1a", color: "#fff", border: "none", padding: "12px 28px",
     borderRadius: "6px", fontSize: "1rem", cursor: "pointer", fontWeight: "bold" },
   section: { marginBottom: "24px" },
-  sectionTitle: { color: "#1a3a6b", marginBottom: "8px" },
+  sectionTitle: { color: "#1a1a1a", marginBottom: "8px" },
   fullText: { color: "#333", lineHeight: "1.7", whiteSpace: "pre-wrap" },
-  hashBox: { background: "#e8f5e9", border: "1px solid #a5d6a7", borderRadius: "6px",
+  hashBox: { background: "#f0f0f0", border: "1px solid #d0d0d0", borderRadius: "6px",
     padding: "16px", marginBottom: "24px" },
   hash: { display: "block", wordBreak: "break-all", fontSize: "0.78rem",
-    marginTop: "8px", color: "#1b5e20" },
+    marginTop: "8px", color: "#333" },
   center: { textAlign: "center", marginTop: "60px" },
 };

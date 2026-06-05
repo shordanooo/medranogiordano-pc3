@@ -51,13 +51,13 @@ export default function Register() {
 const styles = {
   container: { display: "flex", justifyContent: "center", alignItems: "center",
     minHeight: "70vh", padding: "20px" },
-  card: { background: "#fff", border: "1px solid #d0dff5", borderRadius: "10px",
+  card: { background: "#fff", border: "1px solid #d0d0d0", borderRadius: "10px",
     padding: "40px", width: "100%", maxWidth: "420px", boxShadow: "0 4px 12px rgba(0,0,0,0.08)" },
-  heading: { color: "#1a3a6b", textAlign: "center", marginBottom: "24px" },
+  heading: { color: "#1a1a1a", textAlign: "center", marginBottom: "24px" },
   form: { display: "flex", flexDirection: "column", gap: "12px" },
-  input: { padding: "10px 14px", border: "1px solid #d0dff5", borderRadius: "6px", fontSize: "1rem" },
-  error: { color: "#c62828", margin: 0 },
-  btn: { background: "#1a3a6b", color: "#fff", border: "none", padding: "12px",
+  input: { padding: "10px 14px", border: "1px solid #d0d0d0", borderRadius: "6px", fontSize: "1rem" },
+  error: { color: "#7a1a1a", margin: 0 },
+  btn: { background: "#1a1a1a", color: "#fff", border: "none", padding: "12px",
     borderRadius: "6px", fontSize: "1rem", cursor: "pointer", fontWeight: "bold" },
   footer: { textAlign: "center", marginTop: "16px", color: "#555", fontSize: "0.9rem" },
 };

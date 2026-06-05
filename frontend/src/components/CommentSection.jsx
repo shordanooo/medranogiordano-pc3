@@ -48,15 +48,15 @@ export default function CommentSection({ proposalId, comments = [], onNewComment
 
 const styles = {
   container: { marginTop: "24px" },
-  heading: { color: "#1a3a6b", marginBottom: "12px" },
-  comment: { background: "#f5f8ff", border: "1px solid #d0dff5", borderRadius: "6px",
+  heading: { color: "#1a1a1a", marginBottom: "12px" },
+  comment: { background: "#f8f8f8", border: "1px solid #e0e0e0", borderRadius: "6px",
     padding: "12px", marginBottom: "10px" },
-  commentText: { margin: "0 0 4px 0", color: "#333" },
+  commentText: { margin: "0 0 4px 0", color: "#1a1a1a" },
   meta: { color: "#888" },
   form: { marginTop: "16px", display: "flex", flexDirection: "column", gap: "8px" },
-  textarea: { padding: "10px", border: "1px solid #d0dff5", borderRadius: "6px",
+  textarea: { padding: "10px", border: "1px solid #d0d0d0", borderRadius: "6px",
     fontSize: "0.95rem", resize: "vertical" },
-  error: { color: "#c62828", margin: 0 },
-  btn: { alignSelf: "flex-end", background: "#1a3a6b", color: "#fff", border: "none",
+  error: { color: "#7a1a1a", margin: 0 },
+  btn: { alignSelf: "flex-end", background: "#1a1a1a", color: "#fff", border: "none",
     padding: "8px 20px", borderRadius: "5px", cursor: "pointer" },
 };
