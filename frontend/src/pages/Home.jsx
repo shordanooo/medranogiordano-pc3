@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div style={styles.container}>
       <div style={styles.hero}>
-        <h1 style={styles.title}>Voz del Ciudadano</h1>
+        <h1 style={styles.title}>Propuesta Popular</h1>
         <p style={styles.subtitle}>
           Plataforma oficial del Poder Legislativo para la presentación
           de Iniciativas Legislativas Ciudadanas.
@@ -36,20 +36,20 @@ export default function Home() {
 const styles = {
   container: { maxWidth: "1000px", margin: "0 auto", padding: "40px 24px" },
   hero: { textAlign: "center", padding: "60px 0 40px" },
-  title: { fontSize: "2.4rem", color: "#1a3a6b", marginBottom: "16px" },
+  title: { fontSize: "2.4rem", color: "#1a1a1a", marginBottom: "16px" },
   subtitle: { fontSize: "1.1rem", color: "#555", maxWidth: "600px", margin: "0 auto 32px" },
   actions: { display: "flex", gap: "16px", justifyContent: "center" },
-  btnPrimary: { background: "#1a3a6b", color: "#fff", padding: "12px 28px",
+  btnPrimary: { background: "#1a1a1a", color: "#fff", padding: "12px 28px",
     borderRadius: "6px", textDecoration: "none", fontWeight: "bold" },
-  btnSecondary: { background: "transparent", color: "#1a3a6b", padding: "12px 28px",
-    borderRadius: "6px", textDecoration: "none", border: "2px solid #1a3a6b", fontWeight: "bold" },
+  btnSecondary: { background: "transparent", color: "#1a1a1a", padding: "12px 28px",
+    borderRadius: "6px", textDecoration: "none", border: "2px solid #1a1a1a", fontWeight: "bold" },
   steps: { display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
     gap: "20px", marginTop: "40px" },
-  stepCard: { background: "#f5f8ff", border: "1px solid #d0dff5", borderRadius: "10px",
+  stepCard: { background: "#fff", border: "1px solid #e0e0e0", borderRadius: "10px",
     padding: "28px", textAlign: "center" },
   stepNum: { display: "inline-block", width: "40px", height: "40px", borderRadius: "50%",
-    background: "#1a3a6b", color: "#fff", lineHeight: "40px", fontSize: "1.2rem",
+    background: "#1a1a1a", color: "#fff", lineHeight: "40px", fontSize: "1.2rem",
     fontWeight: "bold", marginBottom: "12px" },
-  stepTitle: { color: "#1a3a6b", marginBottom: "8px" },
+  stepTitle: { color: "#1a1a1a", marginBottom: "8px" },
   stepDesc: { color: "#555", fontSize: "0.9rem" },
 };

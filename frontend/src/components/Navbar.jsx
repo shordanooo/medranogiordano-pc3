@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <nav style={styles.nav}>
       <Link to="/" style={styles.brand}>
-        Voz del Ciudadano
+        Propuesta Popular
       </Link>
       <div style={styles.links}>
         <Link to="/proposals" style={styles.link}>Propuestas</Link>
@@ -35,10 +35,10 @@ export default function Navbar() {
 
 const styles = {
   nav: { display: "flex", justifyContent: "space-between", alignItems: "center",
-    padding: "12px 32px", background: "#1a3a6b", color: "#fff" },
+    padding: "12px 32px", background: "#1a1a1a", color: "#fff" },
   brand: { color: "#fff", textDecoration: "none", fontWeight: "bold", fontSize: "1.2rem" },
   links: { display: "flex", gap: "16px", alignItems: "center" },
-  link: { color: "#cce0ff", textDecoration: "none" },
-  btn: { background: "transparent", border: "1px solid #cce0ff", color: "#cce0ff",
+  link: { color: "#cccccc", textDecoration: "none" },
+  btn: { background: "transparent", border: "1px solid #888", color: "#ccc",
     padding: "6px 14px", borderRadius: "4px", cursor: "pointer" },
 };
